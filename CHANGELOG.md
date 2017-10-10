@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## 0.17.30
+## 0.17.31
 * Enhanced behaviour of `category` GET parameter in `GET /v0/products` endpoint. Now allowing a comma separated list of paths as input and returning products matching at least one of those category paths.
 
 ## 0.17.30
