@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## 0.17.33
+* Performance improvements for 2 core middlewares.
+* Added support new notification type, emitted when a new invoice is created.
+
+## 0.17.32
+* Improved products model validation by enforcing consistency of `stock_type` `stock_level` and `stock_status`
+
 ## 0.17.31
 * Enhanced behaviour of `category` GET parameter in `GET /v0/products` endpoint. Now allowing a comma separated list of paths as input and returning products matching at least one of those category paths.
 
