@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 0.17.34
+* Fixed items_total calculations, now `price_discount` can be equal to zero to achieve "free" products.
+* Fixed internal method for calculating `payment_method_total`
+
 ## 0.17.33
 * Performance improvements for 2 core middlewares.
 * Added support new notification type, emitted when a new invoice is created.
