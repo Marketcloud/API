@@ -1,5 +1,24 @@
 # CHANGELOG
 
+## 0.17.41
+* Internal optimization of a core middleware greatly reducing average response time across the whole API! Yay!
+
+## 0.17.40
+* Improved escaping of `q` parameter in `GET /products` endpoint for full text search. Now mixed types are automatically cast to string.
+
+## 0.17.39
+* Fixed `DELETE /invoices/{id}` , now correctly removing `invoice_id` from related order.
+
+## 0.17.38
+* Fixed `PUT /files` endpoint, now correctly validating the update.
+
+## 0.17.37
+* Improved escaping of `q` parameter in `GET /products` endpoint for full text search
+
+## 0.17.35,0.17.36
+* Fixed model for Invoices.LineItems in order to align it with other LineItems
+* Orders now always have attached display_X properties to show totals as strings with currency code
+
 ## 0.17.34
 * Fixed items_total calculations, now `price_discount` can be equal to zero to achieve "free" products.
 * Fixed internal method for calculating `payment_method_total`
