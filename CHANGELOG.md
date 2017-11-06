@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## 0.17.42
+* Minor fixes to /files (/media) resource 
+
 ## 0.17.41
 * Internal optimization of a core middleware greatly reducing average response time across the whole API! Yay!
 
