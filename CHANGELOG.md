@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## 0.17.43
+* Fixed bug in `GET /orders` and `GET /orders/{id}` where fetching very old orders with no currency information attached would cause an error. Now fetching very old orders that do not have currency information simply won't fetch formatted prices and totals.
+
 ## 0.17.42
 * Minor fixes to /files (/media) resource 
 
